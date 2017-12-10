@@ -1,0 +1,4 @@
+/* Hide two-factor authentication alert */
+#ember531 > div.row {
+    display: none;
+}

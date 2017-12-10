@@ -1,0 +1,16 @@
+/* Hide "Your Pages" container in newsfeed */
+#homepage_panel_pagelet,
+/* Hide "Add Featured Photos" container */
+#u_0_3z {
+    display: none;
+}
+
+/* Hide Social Fixer logo when it's not being hovered on */
+#sfx_badge_logo {
+    opacity: 0;
+}
+
+/* Make notification width the same width as the page */
+#content .UIStandardFrame_Content {
+    width: 100%;
+}

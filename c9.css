@@ -1,0 +1,114 @@
+/* Fix new workspace link color */
+#header > nav > a.icon-plus {
+	font-weight: 400;
+	opacity: 0.7;
+}
+
+/* Change sidebar design */
+#sidebar {
+    border: 0;
+    color: #ffffff;
+    padding: 0;
+}
+
+#sidebar:before {   
+	background: #2c91de;
+}
+
+#sidebar > div.collapse-margin-bottom-1 {
+    display: none;
+}
+
+#sidebar .pills {
+    font-size: 12pt;
+	margin: 0 !important;
+}
+
+#sidebar .pills a {
+    border-radius: 0;
+    line-height: 12pt;
+    padding: 20px 15px;
+}
+
+#sidebar .pills a.active {
+	border-left: 4px solid white;
+}
+
+/* Remove "Account" header on settings page */
+#sidebar > div.margin-bottom-2 > h5 {
+    display: none;
+}
+
+/* Remove ugly divider */
+#sidebar hr {
+    display: none;
+}
+
+/* Remove subscription container */
+#sidebar > span {
+    display: none;
+}
+
+/* Change height to be same as workspace cards */
+#card-new-project {
+    height: 293.19px;
+}
+
+/* Decrease margin in between workspace cards */
+.card {
+    margin: 10px 10px 0 0 !important;
+}
+
+.card .text-right {
+    display: flex;
+    text-align: center;
+}
+
+/* Move "Clone" button to second */
+.card .text-right a:nth-child(1) {
+    margin: 0 !important;
+	order: 2;
+}
+
+/* Move "Open" button to first */
+.card .text-right a:nth-child(2) {
+    margin-right: 12px;
+	order: 1;
+}
+
+.card .button {
+    text-align: center;
+    width: 47.5065%;
+}
+
+.card button {
+    width: 100%;
+}
+
+/* Stretch repo cards to full width */
+#page-account-repos .card {
+    margin: 0;
+    width: 48.724%;
+}
+
+#page-account-repos .card .button {
+    width: unset;
+}
+
+/* Revert padding for tabs */
+.tabs a:first-child {
+    padding-left: 12px !important;
+}
+
+#button-delete-workspace {
+    float: right;
+}
+
+#center-right .wrap > div {
+    width: 100%;
+}
+
+/* Don't expand out of the container */
+[id*="settings"] .row {
+    margin-right: 0 !important;
+}

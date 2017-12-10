@@ -1,0 +1,6 @@
+/* Hide "Find people you know" module */
+#page-container .wtf-module > div:nth-child(2),
+/* Hide "Advertise with Twitter" module */
+#page-container .Footer-adsModule {
+	display: none;
+}

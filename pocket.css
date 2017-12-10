@@ -1,0 +1,5 @@
+/* Hide sponsored links */
+.item_type_spoc,
+.spoc {
+    display: none;
+}
