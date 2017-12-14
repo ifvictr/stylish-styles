@@ -1,6 +1,9 @@
-/* Hide Algolia branding from Awesome Autocomplete */
-.tt-dataset-branding,
 /* Hide "Seeing something unexpected?" blurb */
 #js-contribution-activity .js-show-more-timeline-form p {
+    display: none;
+}
+
+/* Hide Algolia branding from Awesome Autocomplete */
+.tt-dataset-branding {
     display: none;
 }

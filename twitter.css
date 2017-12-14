@@ -1,3 +1,5 @@
+/* Hide "Moments" tab */
+#global-actions .moments,
 /* Hide "Find people you know" module */
 #page-container .wtf-module > div:nth-child(2),
 /* Hide "Advertise with Twitter" module */

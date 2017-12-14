@@ -1,7 +1,9 @@
-/* Hide "Your Pages" container in newsfeed */
+/* Hide "Your Pages" section in newsfeed */
 #homepage_panel_pagelet,
-/* Hide "Add Featured Photos" container */
-#u_0_3z {
+/* Hide "Add Featured Photos" section */
+._3-8o,
+/* Hide "Featured Albums" section */
+#profile_timeline_tiles_unit_pagelets_albums {
     display: none;
 }
 
