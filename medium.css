@@ -1,0 +1,4 @@
+/* Hide upgrade button */
+.js-upgradeMembershipAction {
+    display: none;
+}

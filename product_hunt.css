@@ -1,0 +1,6 @@
+/* Hide right sidebar */
+div[class^="secondaryContent"],
+/* Hide Intercom bubble */
+#intercom-container {
+    display: none;
+}

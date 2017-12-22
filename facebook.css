@@ -1,10 +1,21 @@
+/* Hide page questions */
+#page_admin_chatbot_pagelet,
+/* Hide create links */
+#createNav,
 /* Hide "Your Pages" section in newsfeed */
 #homepage_panel_pagelet,
 /* Hide "Add Featured Photos" section */
 ._3-8o,
 /* Hide "Featured Albums" section */
-#profile_timeline_tiles_unit_pagelets_albums {
+#profile_timeline_tiles_unit_pagelets_albums,
+/* Hide "Did you know" section */
+#profile_timeline_tiles_unit_pagelets_fun_fact_answers {
     display: none;
+}
+
+/* Remove unaesthetic padding */
+#pagelet_trending_tags_and_topics > div {
+    padding-top: 0;
 }
 
 /* Hide Social Fixer logo when it's not being hovered on */
