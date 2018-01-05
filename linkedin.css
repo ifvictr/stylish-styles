@@ -1,0 +1,6 @@
+/* Hide copyright */
+.feed-right-rail .ember-view.sticky,
+/* Hide page footer */
+.nav-footer {
+    display: none;
+}
