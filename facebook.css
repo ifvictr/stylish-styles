@@ -13,11 +13,6 @@
     display: none;
 }
 
-/* Remove unaesthetic padding */
-#pagelet_trending_tags_and_topics > div {
-    padding-top: 0;
-}
-
 /* Hide Social Fixer logo when it's not being hovered on */
 #sfx_badge_logo {
     opacity: 0;
