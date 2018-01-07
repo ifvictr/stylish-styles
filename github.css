@@ -1,10 +1,17 @@
-/* Hide Algolia branding from Awesome Autocomplete */
+/* Remove Algolia branding from Awesome Autocomplete */
 .tt-dataset-branding,
-/* Hide repo/user div */
+/* Remove repo/user activity cards */
 #dashboard .news div .border,
-/* Hide "Learn how we count contributions" blurb */
+/* Remove "Learn how we count contributions" link */
 .js-contribution-graph .contrib-footer > .float-left,
-/* Hide "Seeing something unexpected?" blurb */
-#js-contribution-activity .js-show-more-timeline-form > p {
+/* Remove "Seeing something unexpected?" link */
+#js-contribution-activity .js-show-more-timeline-form > p,
+/* Remove page footer */
+.footer {
     display: none;
+}
+
+/* Add spacing below main container (since footer was removed) */
+div[role="main"] {
+	margin-bottom: 40px;
 }

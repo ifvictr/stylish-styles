@@ -1,4 +1,4 @@
-/* Hide two-factor authentication alert */
+/* Remove two-factor authentication alert */
 .ember-view > div.row {
     display: none;
 }

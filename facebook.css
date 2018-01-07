@@ -1,14 +1,14 @@
-/* Hide page questions */
+/* Remove page questions */
 #page_admin_chatbot_pagelet,
-/* Hide create links */
+/* Remove create links */
 #createNav,
-/* Hide "Your Pages" section in newsfeed */
+/* Remove "Your Pages" section in newsfeed */
 #homepage_panel_pagelet,
-/* Hide "Add Featured Photos" section */
+/* Remove "Add Featured Photos" section */
 ._3-8o,
-/* Hide "Featured Albums" section */
+/* Remove "Featured Albums" section */
 #profile_timeline_tiles_unit_pagelets_albums,
-/* Hide "Did you know" section */
+/* Remove "Did you know" section */
 #profile_timeline_tiles_unit_pagelets_fun_fact_answers {
     display: none;
 }

@@ -1,6 +1,6 @@
-/* Hide bottom link list */
+/* Remove bottom link list */
 .nav-content-bottom,
-/* Hide sponsored links */
+/* Remove sponsored links */
 .item_type_spoc,
 .spoc {
     display: none;

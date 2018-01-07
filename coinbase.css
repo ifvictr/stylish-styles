@@ -1,0 +1,6 @@
+/* Remove page footer */
+div[class^="Footer__Wrapper"],
+/* Remove page footer (for elements without the above class name) */
+.hvLrBO.bTBDKY {
+    display: none;
+}
