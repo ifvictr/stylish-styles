@@ -1,0 +1,6 @@
+/* Remove "Get the most out of PayPal" button */
+#js_engagementActionTrigger,
+/* Remove page footer */
+.vx_globalFooter {
+    display: none;
+}
