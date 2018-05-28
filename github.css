@@ -1,7 +1,7 @@
 /* Remove Algolia branding from Awesome Autocomplete */
 .tt-dataset-branding,
 /* Remove repo/user activity cards */
-#dashboard .news div .border,
+/* #dashboard .news div .border, */
 /* Remove "Learn how we count contributions" link */
 .js-contribution-graph .contrib-footer > .float-left,
 /* Remove "Seeing something unexpected?" link */
