@@ -1,0 +1,71 @@
+/* To be used alongside Slack Night Mode: https://userstyles.org/styles/117475/slack-night-mode-black */
+
+:root {
+    --white: #ffffff;
+    --color-base: #222222;
+    --color-highlight: #949494;
+    --color-shade-dark: #363636;
+    --color-shade-mid: #424242;
+    --color-shade-light: #545454;
+	--base-font-color: #e6e6e6;
+}
+
+/* Message list background */
+.c-virtual_list__scroll_container,
+.p-degraded_list__loading {
+    background: var(--color-base);
+}
+
+/* Details and settings button colors */
+.channel_header_icon,
+.channel_details_toggle,
+.channel_actions_toggle {
+    color: var(--color-highlight);
+}
+
+#header_search_form {
+	background: var(--color-shade-light);
+}
+
+.p-channel_sidebar__jumper {
+    background: var(--color-shade-light);
+}
+
+.p-channel_sidebar__jumper:hover {
+    background: var(--color-shade-mid);
+}
+
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
+    background: none;
+}
+
+#autocomplete_menu {
+    background: var(--color-base);
+}
+
+#autocomplete_menu .query_header,
+#autocomplete_menu footer.unified {
+    background: var(--color-shade-dark) !important;
+}
+
+#autocomplete_menu .results li:hover .truncate-left__size {
+	color: var(--white);
+}
+
+#autocomplete_menu .results .truncate-left__size {
+    color: var(--color-highlight);
+}
+
+.ReactModal__Content .c-dialog__header,
+.ReactModal__Content .c-dialog__body,
+.ReactModal__Content .c-dialog__footer,
+.c-dialog__title {
+    background: var(--color-base);
+    color: white;
+}
+
+.c-dialog__header--overflow,
+.c-dialog__footer--overflow {
+    border: none;
+}
