@@ -1,0 +1,4 @@
+/* Hide Smart Reply */
+.amr > .brb {
+    display: none;
+}
