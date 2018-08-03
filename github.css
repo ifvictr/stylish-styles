@@ -1,14 +1,14 @@
+/* Remove GitHub's search suggestions */
+.header-search .jump-to-suggestions,
 /* Remove Algolia branding from Awesome Autocomplete */
 .tt-dataset-branding,
-/* Remove repo/user activity cards */
-/* #dashboard .news div .border, */
+/* Remove user avatar next to username */
+.news .watch_started .flex-items-baseline > .mr-3 > a,
 /* Remove "Learn how we count contributions" link */
 .js-contribution-graph .contrib-footer > .float-left,
-/* Remove "Seeing something unexpected?" link */
-#js-contribution-activity .js-show-more-timeline-form > p,
 /* Remove page footer */
 .footer {
-    display: none;
+    display: none !important;
 }
 
 /* Add spacing below main container (since footer was removed) */
