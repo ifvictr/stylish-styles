@@ -5,7 +5,7 @@
 /* Remove user avatar next to username */
 .news .watch_started .flex-items-baseline > .mr-3 > a,
 /* Remove "Learn how we count contributions" link */
-.js-contribution-graph .contrib-footer > .float-left,
+.js-yearly-contributions .contrib-footer > .float-left,
 /* Remove page footer */
 .footer {
     display: none !important;
