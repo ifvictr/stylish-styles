@@ -2,8 +2,6 @@
 .header-search .jump-to-suggestions,
 /* Remove Algolia branding from Awesome Autocomplete */
 .tt-dataset-branding,
-/* Remove user avatar next to username */
-.news .watch_started .flex-items-baseline > .mr-3 > a,
 /* Remove "Learn how we count contributions" link */
 .js-yearly-contributions .contrib-footer > .float-left,
 /* Remove page footer */
