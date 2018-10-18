@@ -2,6 +2,10 @@
 .header-search .jump-to-suggestions,
 /* Remove Algolia branding from Awesome Autocomplete */
 .tt-dataset-branding,
+/* Remove redundant repo name in Octotree header */
+.octotree_header_repo,
+/* Remove feedback link */
+.octotree_bottom,
 /* Remove "Learn how we count contributions" link */
 .js-yearly-contributions .contrib-footer > .float-left,
 /* Remove page footer */
@@ -9,7 +13,21 @@
     display: none !important;
 }
 
+/* Enlarge branch name */
+.octotree_header_branch {
+    font-size: 16px !important;
+    font-weight: 600;
+    margin: 0 !important;
+    position: absolute;
+    top: 21px;
+}
+
+/* Make branch icon more prominent */
+.octotree_header_branch:before {
+    content: url("data:image/svg+xml,%0A%3Csvg viewBox='0 0 10 16' width='10' height='16' xmlns='http://www.w3.org/2000/svg' fill='%23959da5'%3E%3Cpath d='M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38s-.86.61-1.38.63c-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2s2-.89 2-2c0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2S2.65 4.2 2 4.2.8 3.65.8 3 1.35 1.8 2 1.8zm0 12.41c-.66 0-1.2-.55-1.2-1.2s.55-1.2 1.2-1.2 1.2.55 1.2 1.2-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2s.55-1.2 1.2-1.2 1.2.55 1.2 1.2-.55 1.2-1.2 1.2z'/%3E%3C/svg%3E") !important;
+}
+
 /* Add spacing below main container (since footer was removed) */
 div[role="main"] {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
